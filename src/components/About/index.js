@@ -1,9 +1,11 @@
 import React from "react";
+import avatar from "../../assets/icons/avatar.png";
 
 function About () {
     return (
     <div>
         <h1>About Me</h1>
+        <img src={avatar} alt="My Avatar" />
         <p>
             Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
             ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam

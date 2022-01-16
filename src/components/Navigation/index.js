@@ -4,18 +4,28 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
     return (
         <nav>
-            <NavLink to="/about">
+            <ul className="flex-row">
+                <li className="mx-2">
+            <NavLink activeClassName="navActive" to="/about">
                 about me
             </NavLink>
-            <NavLink to="/portfolio">
+            </li>
+            <li className="mx-2">
+            <NavLink activeClassName="navActive" to="/portfolio">
                 portfolio
             </NavLink>
-            <NavLink to="/contact">
+            </li>
+            <li className="mx-2">
+            <NavLink activeClassName="navActive" to="/contact">
                 contact
             </NavLink>
-            <NavLink to="resume">
+            </li>
+            <li className="mx-2">
+            <NavLink activeClassName="navActive" to="resume">
                 resume
             </NavLink>
+            </li>
+            </ul>
         </nav>
     );
 };

@@ -5,7 +5,7 @@
         "image": "",
         "github": "https://github.com/krushilnaik/Budget-Better",
         "app": "https://rutgers-budget-better.herokuapp.com/",
-        "technologies": ""
+        "technologies": "MySQL / Sequelize / Handlebars / Gulp / SCSS / Anime.js"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "image": "",
         "github": "https://github.com/NeXFP/Pokemon-Battle-Simulator",
         "app": "https://nexfp.github.io/Pokemon-Battle-Simulator/",
-        "technologies": ""
+        "technologies": "HTML / CSS (Bulma) / JS / jQuery / APIs"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "image": "",
         "github": "https://github.com/asadg7/PWA-Budget-Tracker",
         "app": "https://pwa-budget--tracker.herokuapp.com/",
-        "technologies": ""
+        "technologies": "MongoDB / Mongoose / PWA / indexedDB"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "image": "",
         "github": "https://github.com/asadg7/weather_dashboard",
         "app": "https://asadg7.github.io/weather_dashboard/",
-        "technologies": ""
+        "technologies": "HTML / CSS (Bootstrap) / JS / jquery / Moment.js"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "image": "",
         "github": "https://github.com/asadg7/dynamic_note_taker",
         "app": "https://dynamic-note-taker.herokuapp.com/",
-        "technologies": ""
+        "technologies": "Node / Express / Serverside APIS"
     },
     {
         "id": 6,
@@ -45,6 +45,6 @@
         "image": "",
         "github": "https://github.com/asadg7/daily_event_planner",
         "app": "https://asadg7.github.io/daily_event_planner/",
-        "technologies": ""
+        "technologies": "HTML / CSS (Bootstrap) / JS / jquery / Moment.js"
     }
 ]
