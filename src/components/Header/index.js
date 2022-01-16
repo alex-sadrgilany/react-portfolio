@@ -14,23 +14,26 @@ import {
 
 function Header() {
     return (
-        <div className="flex-row">
-            <h1>
-                Alex Sadrgilany
-            </h1>
+        <div>
             <Router>
-                <div>
-                    <Navigation />
-                </div>
-                <div>
+                <header className="flex-row">
+                    <h1>
+                        Alex Sadrgilany
+                    </h1>
+                    <div>
+                        <Navigation />
+                    </div>
+                </header>
+
+                <main>
                     <Switch>
-                        <Route exact path="/" render={ () => (<Redirect to="/about" />) } />
+                        <Route exact path="/" render={() => (<Redirect to="/about" />)} />
                         <Route exact path="/about" component={About} />
                         <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/contact" component={Contact} />
                         <Route exact path="/resume" component={Resume} />
                     </Switch>
-                </div>
+                </main>
             </Router>
         </div>
     );
