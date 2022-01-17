@@ -22,20 +22,22 @@ function Portfolio () {
         eventPlannerGif
     ];
 
+    
     return (
         <div className="container" id="portfolio">
             <DocumentTitle title="Portfolio"></DocumentTitle>
             <div className="row">
-            {portfolio.map((proj) => (
-                <Project
-                    key={proj.id}
-                    image={gifArray[proj.id - 1]}
-                    name={proj.name}
-                    github={proj.github}
-                    app={proj.app}
-                    technologies={proj.technologies}
-                />
-            ))}
+                {/* mapping through the portfolio.json array and rendering a project component for each entry */}
+                {portfolio.map((proj) => (
+                    <Project
+                        key={proj.id}
+                        image={gifArray[proj.id - 1]}
+                        name={proj.name}
+                        github={proj.github}
+                        app={proj.app}
+                        technologies={proj.technologies}
+                    />
+                ))}
             </div>
         </div>
     );

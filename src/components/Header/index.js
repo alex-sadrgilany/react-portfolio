@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navigation from "../Navigation";
 import About from "../About";
 import Contact from "../Contact";
@@ -11,8 +11,6 @@ import {
     Switch,
     Redirect
 } from "react-router-dom";
-
-import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Header() {
     return (
@@ -31,6 +29,7 @@ function Header() {
                 </header>
 
                 <main>
+                    {/* utilizing router/switch/route/redirect to conditionally render each component based on what the user clicks in the navbar */}
                     <Switch>
                         <Route exact path="/" render={() => (<Redirect to="/about" />)} />
                         <Route exact path="/about" component={About} />

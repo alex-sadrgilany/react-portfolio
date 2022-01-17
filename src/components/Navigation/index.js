@@ -7,6 +7,7 @@ function Navigation(props) {
     }, [props.title]);
     return (
         <nav>
+            {/* utilizing navlink in conjunction with router to render the proper pages based on titles in the navbar */}
             <ul className="flex-row">
                 <li className="mx-2">
                     <NavLink activeClassName="navActive" to="/about">
