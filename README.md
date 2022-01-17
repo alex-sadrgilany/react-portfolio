@@ -8,7 +8,7 @@ This project was created in order to utilize the React Application to create a d
 
 ## Deployed Application
 
-https://pwa-budget--tracker.herokuapp.com/
+https://asadg7.github.io/React-Portfolio/
 
 ## Table of Contents
 
@@ -20,17 +20,21 @@ https://pwa-budget--tracker.herokuapp.com/
 
 ## Screenshots
 
-Online Functionality
+About Me
 
-![Using the application while online](./assets/screenshots/screenshot1.PNG)
+![About Me Page](./assets/screenshots/screenshot1.PNG)
 
-Offline Functionality
+Portfolio
 
-![Using the application while offline](./assets/screenshots/screenshot2.PNG)
+![Portfolio Page](./assets/screenshots/screenshot2.PNG)
 
-Returning Online Functionality
+Contact Me
 
-![Returning online to show the transactions saved](./assets/screenshots/screenshot3.PNG)
+![Contact Me Page](./assets/screenshots/screenshot3.PNG)
+
+Resume
+
+![Resume Page]()
 
 ## Installation
 

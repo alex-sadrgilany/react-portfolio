@@ -9,7 +9,7 @@ function Project(props) {
             <div className="top-card">
             <h3 className="card-header titles text-center">{props.name}</h3>
             <div className="img-container">
-                <a href={props.app} target="_blank">
+                <a href={props.app} target="_blank" rel="noreferrer">
                     <img alt={props.name} src={props.image} className="card-img-top" />
                 </a>
             </div>
@@ -17,10 +17,14 @@ function Project(props) {
 
             <div className="card-body">
                 <p>
-                    <a href={props.github} className="card-link">GitHub Repo</a>
+                    <a href={props.github} className="card-link" target="_blank" rel="noreferrer">
+                        GitHub Repo
+                    </a>
                 </p>
                 <p>
-                    <a href={props.app} className="card-link">Deployed App</a>
+                    <a href={props.app} className="card-link" target="_blank" rel="noreferrer">
+                        Deployed App
+                    </a>
                 </p>
                 <p>
                     {props.technologies}
