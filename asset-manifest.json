@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.82d85dad.css",
-    "main.js": "/React-Portfolio/static/js/main.9cd423fa.js",
-    "static/js/787.8c081f57.chunk.js": "/React-Portfolio/static/js/787.8c081f57.chunk.js",
-    "static/media/pokemon_battle.gif": "/React-Portfolio/static/media/pokemon_battle.0c334336d94be4788736.gif",
-    "static/media/budget_better.gif": "/React-Portfolio/static/media/budget_better.c94627892ed2f0e1e715.gif",
-    "static/media/weather_dashboard.gif": "/React-Portfolio/static/media/weather_dashboard.a9d13a7eb2bf731ea833.gif",
-    "static/media/dummy_resume.pdf": "/React-Portfolio/static/media/dummy_resume.32661c947de3dec48e62.pdf",
-    "static/media/budget_tracker.gif": "/React-Portfolio/static/media/budget_tracker.3dae3e6d61d0a9b042f1.gif",
-    "static/media/event_planner.gif": "/React-Portfolio/static/media/event_planner.556decf1ec638f1f93c3.gif",
-    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.01913753907326a0ae6d.png",
-    "static/media/note_taker.gif": "/React-Portfolio/static/media/note_taker.6cc3fff686595aa9f603.gif",
-    "static/media/stackoverflow.png": "/React-Portfolio/static/media/stackoverflow.e8d48dc38b975528f038.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.82d85dad.css.map": "/React-Portfolio/static/css/main.82d85dad.css.map",
-    "main.9cd423fa.js.map": "/React-Portfolio/static/js/main.9cd423fa.js.map",
-    "787.8c081f57.chunk.js.map": "/React-Portfolio/static/js/787.8c081f57.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.82d85dad.css",
+    "main.js": "/react-portfolio/static/js/main.1975df22.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/pokemon_battle.gif": "/react-portfolio/static/media/pokemon_battle.0c334336d94be4788736.gif",
+    "static/media/budget_better.gif": "/react-portfolio/static/media/budget_better.c94627892ed2f0e1e715.gif",
+    "static/media/weather_dashboard.gif": "/react-portfolio/static/media/weather_dashboard.a9d13a7eb2bf731ea833.gif",
+    "static/media/dummy_resume.pdf": "/react-portfolio/static/media/dummy_resume.32661c947de3dec48e62.pdf",
+    "static/media/budget_tracker.gif": "/react-portfolio/static/media/budget_tracker.3dae3e6d61d0a9b042f1.gif",
+    "static/media/event_planner.gif": "/react-portfolio/static/media/event_planner.556decf1ec638f1f93c3.gif",
+    "static/media/avatar.png": "/react-portfolio/static/media/avatar.01913753907326a0ae6d.png",
+    "static/media/note_taker.gif": "/react-portfolio/static/media/note_taker.6cc3fff686595aa9f603.gif",
+    "static/media/stackoverflow.png": "/react-portfolio/static/media/stackoverflow.e8d48dc38b975528f038.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.82d85dad.css.map": "/react-portfolio/static/css/main.82d85dad.css.map",
+    "main.1975df22.js.map": "/react-portfolio/static/js/main.1975df22.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82d85dad.css",
-    "static/js/main.9cd423fa.js"
+    "static/js/main.1975df22.js"
   ]
 }
