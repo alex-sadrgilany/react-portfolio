@@ -8,7 +8,7 @@ This project was created in order to utilize the React Application to create a d
 
 ## Deployed Application
 
-https://asadg7.github.io/React-Portfolio/
+https://asadg7.github.io/react-portfolio/
 
 ## Table of Contents
 
@@ -22,46 +22,45 @@ https://asadg7.github.io/React-Portfolio/
 
 About Me
 
-![About Me Page](./assets/screenshots/screenshot1.PNG)
+![About Me Page](./src/assets/screenshots/screenshot1.PNG)
 
 Portfolio
 
-![Portfolio Page](./assets/screenshots/screenshot2.PNG)
+![Portfolio Page](./src/assets/screenshots/screenshot2.PNG)
 
 Contact Me
 
-![Contact Me Page](./assets/screenshots/screenshot3.PNG)
+![Contact Me Page](./src/assets/screenshots/screenshot3.PNG)
 
 Resume
 
-![Resume Page]()
+![Resume Page](./src/assets/screenshots/screenshot4.PNG)
 
 ## Installation
 
-There are a few different steps to getting this application installed and ready to go.
+There are a few different steps to getting this application installed and ready to go on your local machine.
 
-Step 1: Install MongoDB if you haven't already. Please refer to online documents to get MongoDB up and running ([MongoDB Official Installation Walkthroughs for Windows/Mac/Linux](https://docs.mongodb.com/manual/administration/install-community/))
+Step 1: Clone this repo onto your local machine.
 
-Step 2: Clone this repo onto your local machine.
+Step 2: Navigate to this project's root directory in your terminal and run the following installation command
+
+```
+npm install
+```
 
 
 ## Usage
 
 Continuing from the installation instructions, the following steps will help you use this application.
 
-Step 3: Navigate to the root of the project directory in your terminal, and run the following command:
 
-```
-npm install
-```
-
-Step 4: After installing all dependencies, you may invoke the application using:
+Step 3: After installing all dependencies, you may invoke the application using:
 
 ```
 npm start
 ```
 
-Step 5: Navigate to localhost:3001 in order to use the application locally.
+Step 4: Navigate to localhost:3000/react-portfolio in order to use the application locally.
 
 ## License
 
