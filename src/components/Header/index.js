@@ -17,7 +17,7 @@ function Header() {
         <div>
             <Router>
                 <header className="flex-row">
-                    <a href="/React-Portfolio" id="home-a">
+                    <a href="/react-portfolio" id="home-a">
                         <h1 className="titles">
                             Alex Sadrgilany
                         </h1>
@@ -31,7 +31,7 @@ function Header() {
                 <main>
                     {/* utilizing router/switch/route/redirect to conditionally render each component based on what the user clicks in the navbar */}
                     <Switch>
-                        <Route exact path="/React-Portfolio" render={() => (<Redirect to="/about" />)} />
+                        <Route exact path="/react-portfolio" render={() => (<Redirect to="/about" />)} />
                         <Route exact path="/about" component={About} />
                         <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/contact" component={Contact} />
