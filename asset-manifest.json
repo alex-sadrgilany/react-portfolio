@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.82d85dad.css",
-    "main.js": "/react-portfolio/static/js/main.1975df22.js",
+    "main.js": "/react-portfolio/static/js/main.4f5b7442.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/pokemon_battle.gif": "/react-portfolio/static/media/pokemon_battle.0c334336d94be4788736.gif",
     "static/media/budget_better.gif": "/react-portfolio/static/media/budget_better.c94627892ed2f0e1e715.gif",
@@ -14,11 +14,11 @@
     "static/media/stackoverflow.png": "/react-portfolio/static/media/stackoverflow.e8d48dc38b975528f038.png",
     "index.html": "/react-portfolio/index.html",
     "main.82d85dad.css.map": "/react-portfolio/static/css/main.82d85dad.css.map",
-    "main.1975df22.js.map": "/react-portfolio/static/js/main.1975df22.js.map",
+    "main.4f5b7442.js.map": "/react-portfolio/static/js/main.4f5b7442.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82d85dad.css",
-    "static/js/main.1975df22.js"
+    "static/js/main.4f5b7442.js"
   ]
 }
