@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Footer() {
     return (
-        <footer className="text-center" id="footer">
+        <footer className="text-center mt-auto" id="footer">
             <div className="container pt-4">
                 <section className="mb-4">
                     <a href="https://github.com/asadg7">
@@ -21,7 +21,6 @@ function Footer() {
                     </a>
                 </section>
             </div>
-                   
         </footer>
     )
 };

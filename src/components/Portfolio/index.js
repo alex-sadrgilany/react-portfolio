@@ -1,4 +1,5 @@
 import React from "react";
+import DocumentTitle from "react-document-title";
 import Project from "../Project";
 import portfolio from "./portfolio.json";
 
@@ -23,6 +24,7 @@ function Portfolio () {
 
     return (
         <div className="container" id="portfolio">
+            <DocumentTitle title="Portfolio"></DocumentTitle>
             <div className="row">
             {portfolio.map((proj) => (
                 <Project

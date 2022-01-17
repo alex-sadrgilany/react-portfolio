@@ -12,14 +12,19 @@ import {
     Redirect
 } from "react-router-dom";
 
+import { capitalizeFirstLetter } from "../../utils/helpers";
+
 function Header() {
     return (
         <div>
             <Router>
                 <header className="flex-row">
-                    <h1>
-                        Alex Sadrgilany
-                    </h1>
+                    <a href="/" id="home-a">
+                        <h1 className="titles">
+                            Alex Sadrgilany
+                        </h1>
+                    </a>
+
                     <div>
                         <Navigation />
                     </div>

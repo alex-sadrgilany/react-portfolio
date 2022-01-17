@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers"; 
+import DocumentTitle from "react-document-title";
+import { validateEmail } from "../../utils/helpers";
 
-function Contact () {
+function Contact() {
 
     const [formState, setFormState] = useState({
         name: "",
@@ -31,7 +32,7 @@ function Contact () {
 
             if (!isValid) {
                 setErrorMessage("Your email is invalid.");
-            } 
+            }
             else {
                 setErrorMessage("");
             }
@@ -39,41 +40,57 @@ function Contact () {
         else {
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required.`);
-            } 
+            }
             else {
                 setErrorMessage("");
             }
         };
 
         if (!errorMessage) {
-          setFormState({ ...formState, [e.target.name]: e.target.value });
-          console.log("Handle Form", formState);
+            setFormState({ ...formState, [e.target.name]: e.target.value });
+            console.log("Handle Form", formState);
         };
     };
 
     return (
         <section>
-            <h1 data-testid="h1tag">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-                </div>
-                {errorMessage && (
+            <DocumentTitle title="Contact Me"></DocumentTitle>
+            <h2 className="text-center titles">
+                Contact me
+            </h2>
+            <div className="container" id="contact-section">
+                <form className="mx-auto" onSubmit={handleSubmit}>
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <label htmlFor="name" className="secondary-titles">
+                            Name:
+                        </label>
+                        <input className="col-md-12" type="text" name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
-                )}
-                <button data-testid="button" type="submit">Submit</button>
-            </form>
+                    <div>
+                        <label htmlFor="email" className="secondary-titles">
+                            Email address:
+                        </label>
+                        <input className="col-md-12" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label htmlFor="message" className="secondary-titles">
+                            Message:
+                        </label>
+                        <textarea className="col-md-12" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">
+                                {errorMessage}
+                            </p>
+                        </div>
+                    )}
+                    <button type="submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+
         </section>
     );
 };
