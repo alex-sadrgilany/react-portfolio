@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "name": "Sold On Ebay",
+        "image": "",
+        "github": "https://github.com/asadg7/sold-on-ebay",
+        "app": "https://sold-on-ebay.herokuapp.com/",
+        "technologies": "Node / Express / Serverside APIS"
+    },
+    {
+        "id": 2,
         "name": "Budget Better",
         "image": "",
         "github": "https://github.com/krushilnaik/Budget-Better",
@@ -8,7 +16,7 @@
         "technologies": "MySQL / Sequelize / Handlebars / Gulp / SCSS / Anime.js"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Pokemon Battle Simulator",
         "image": "",
         "github": "https://github.com/NeXFP/Pokemon-Battle-Simulator",
@@ -16,7 +24,7 @@
         "technologies": "HTML / CSS (Bulma) / JS / jQuery / APIs"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Budget Tracker",
         "image": "",
         "github": "https://github.com/asadg7/PWA-Budget-Tracker",
@@ -24,20 +32,12 @@
         "technologies": "MongoDB / Mongoose / PWA / indexedDB"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Weather Dashboard",
         "image": "",
         "github": "https://github.com/asadg7/weather_dashboard",
         "app": "https://asadg7.github.io/weather_dashboard/",
         "technologies": "HTML / CSS (Bootstrap) / JS / jquery / Moment.js"
-    },
-    {
-        "id": 5,
-        "name": "Note Taker",
-        "image": "",
-        "github": "https://github.com/asadg7/dynamic_note_taker",
-        "app": "https://dynamic-note-taker.herokuapp.com/",
-        "technologies": "Node / Express / Serverside APIS"
     },
     {
         "id": 6,
